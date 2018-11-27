@@ -1,23 +1,32 @@
 body{
   margin:0;
   padding: 0;
-  height: 100vh;
 }
 .page_wrapper{
   background-color: pink;
   margin:0;
   padding: 0;
 }
+.page_header{
+  position:relative;
+}
 .header_box{
+  background-color: #ffffff;
+  width: 100vw;
+  height: 112px;
   margin:0;
   padding: 0;
   text-align: center;
+  position:fixed;
 }
 .header_list{
   margin:0;
   padding: 0 87px 13px 88px;
   display: flex;
   justify-content: center;
+    &:hover{
+      transition:#32decf ease 5s;
+    }
 }
 .style_img{
   padding: 10px 82px;
