@@ -1,0 +1,35 @@
+body{
+  margin:0;
+  padding: 0;
+  height: 100vh;
+}
+.page_wrapper{
+  background-color: pink;
+  margin:0;
+  padding: 0;
+}
+.header_box{
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+.header_list{
+  margin:0;
+  padding: 0 87px 13px 88px;
+  display: flex;
+  justify-content: center;
+}
+.style_img{
+  padding: 10px 82px;
+  text-align: center;
+  width: 155px;
+  height: 60px;
+}
+.header_list{
+  list-style: none;
+  text-transform: uppercase;
+  @include menu;
+}
+.elem1{
+  margin-right: 20px;
+}
