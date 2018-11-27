@@ -6,20 +6,17 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position:relative;
 }
 .hero_box {
-  position:absolute;
-  top:129px;
-  left: 20px;
-  margin:0 auto;
-  padding: 0;
+  margin:0;
+  padding: 129px 20px;
   width: 161px;
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  @include T1---mobile;
     @media all and(min-width:768px){
       top:311px;
       left: 30px;
     }
-}
-.hero_title{
-  @include T1---mobile;
 }
