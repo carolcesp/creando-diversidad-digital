@@ -7,26 +7,13 @@ body{
   margin:0;
   padding: 0;
 }
-.page_header{
-  position:relative;
-}
 .header_box{
   background-color: #ffffff;
   width: 100vw;
-  height: 112px;
   margin:0;
   padding: 0;
   text-align: center;
   position:fixed;
-}
-.header_list{
-  margin:0;
-  padding: 0 87px 13px 88px;
-  display: flex;
-  justify-content: center;
-    &:hover{
-      transition:#32decf ease 5s;
-    }
 }
 .style_img{
   padding: 10px 82px;
@@ -35,10 +22,21 @@ body{
   height: 60px;
 }
 .header_list{
+  margin:0;
+  padding: 0 87px 13px 88px;
   list-style: none;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
   @include menu;
 }
+a{
+  &:hover {
+    color:#32decf;
+  }
+}
+
+
 .elem1{
   margin-right: 20px;
 }
