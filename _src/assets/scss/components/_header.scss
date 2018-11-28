@@ -7,36 +7,50 @@ body{
   margin:0;
   padding: 0;
 }
-.header_box{
-  background-color: #ffffff;
-  width: 100vw;
-  margin:0;
-  padding: 0;
-  text-align: center;
-  position:fixed;
+.page_header{
+background-color: #ffffff;
+width: 100vw;
+margin:0;
+padding: 0;
+text-align: center;
+position:fixed;
+  @media all and(min-width:768px){
+  display:flex;
+  justify-content: space-between;
+  }
 }
 .style_img{
-  padding: 10px 82px;
-  text-align: center;
-  width: 155px;
-  height: 60px;
+padding: 10px 82px;
+text-align: center;
+width: 155px;
+height: 60px;
+  @media all and(min-width:768px){
+  padding: 20px 30px;
+  }
+  @media all and(min-width:1024px){
+  padding: 20px 50px;
+  }
 }
 .header_list{
-  margin:0;
-  padding: 0 87px 13px 88px;
-  list-style: none;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  @include menu;
+margin:0;
+padding: 0 87px 13px 88px;
+list-style: none;
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+@include menu;
+  @media all and(min-width:768px){
+  padding: 41px 30px;
+  }
+  @media all and(min-width: 1024px){
+  padding: 41px 20px;
+  }
 }
 a{
   &:hover {
     color:#32decf;
   }
 }
-
-
 .elem1{
-  margin-right: 20px;
+margin-right: 20px;
 }

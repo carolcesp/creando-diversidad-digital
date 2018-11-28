@@ -1,4 +1,4 @@
-.footer_box{
+.page_footer{
   height: 90px;
   margin:0;
   padding: 0;
@@ -9,5 +9,5 @@
 .footer_par{
   margin:0;
   padding: 34px 105px;
-    @include Copyright;
+  @include Copyright;
 }
