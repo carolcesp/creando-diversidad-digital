@@ -17,6 +17,9 @@
   text-align: center;
   @include T1---mobile;
     @media all and(min-width:768px){
+      @include T1---tablet;
+      width: 322px;
+      height: 213px;
       margin: 311px 30px;
   }
 }
