@@ -50,8 +50,11 @@ justify-content: center;
 }
 // transicion de la lista
 a{
+  text-decoration: none;
+  color: #000000;
   &:hover {
     color:#32decf;
+    text-decoration: underline;
   }
 }
 .elem1{
